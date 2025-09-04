@@ -15,15 +15,19 @@ Upload a `.eml` file **or** paste raw headers/body and get a clean verdict with 
 
 ## 🏁 Quickstart
 ```bash
-# 1) Create & activate venv
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
+# 1) Go into the project folder
+cd PhishX_Project
 
-# 2) Install deps
+# 2) Create and activate a fresh virtual environment
+python3 -m venv .venv
+source .venv/bin/activate   # Windows: .venv\\Scripts\\activate
+
+# 3) Upgrade pip and install dependencies
+pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
 
-# 3) Run
-streamlit run app.py
+# 4) Run the app (always use the -m form inside the venv)
+python -m streamlit run app.py
 ```
 
 ## 🧪 Try sample emails
@@ -53,7 +57,6 @@ PhishX_Project/
   Screenshots            # Demonstration of how it works!
 ```
 
-
 > **PDF Export (optional):** For PDF export, install wkhtmltopdf system-wide:
 >
 > **Debian/Kali/Ubuntu**
@@ -61,3 +64,4 @@ PhishX_Project/
 > sudo apt update && sudo apt install -y wkhtmltopdf
 > ```
 > The app works without this; JSON export is built-in.
+
