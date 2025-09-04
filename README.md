@@ -1,4 +1,4 @@
-# PhishX — Phishing Email Analyzer (Streamlit)
+# PhishX - Phishing Email Analyzer (Streamlit)
 
 A beginner-friendly yet practical phishing analyzer you can run locally or showcase on GitHub/LinkedIn.  
 Upload a `.eml` file **or** paste raw headers/body and get a clean verdict with reasons, DNS checks, domain intel and a downloadable report.
@@ -43,17 +43,15 @@ export VT_API_KEY="your_key_here"
 
 ## 📦 Project Structure
 ```
-phishx/
+PhishX_Project/
   app.py                 # Streamlit UI
   src/phishx/analyzer.py # Core logic
   src/phishx/utils.py    # Helpers
   samples/*.eml          # Example emails
   requirements.txt
   README.md
+  Screenshots            # Demonstration of how it works!
 ```
-
-## 📄 License
-MIT
 
 
 > **PDF Export (optional):** For PDF export, install wkhtmltopdf system-wide:
