@@ -1,0 +1,19 @@
+From: "Apple Support" <no-reply@apple.secure-update-check.com>
+Reply-To: billing@apple.secure-update-check.com
+Return-Path: bounce@mailer.biz
+To: victim@example.org
+Subject: URGENT: Your account will be locked!
+Date: Mon, 1 Sep 2025 10:00:00 +0530
+Message-ID: <phish@example.net>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Authentication-Results: example.org; spf=fail smtp.mailfrom=secure-update-check.com; dkim=none; dmarc=fail
+
+<html>
+  <body>
+    <p>Your Apple account has been flagged. Verify now:</p>
+    <p><a href="http://198.51.100.25/login">Click here</a></p>
+    <p>Or <a href="http://bit.ly/secure-check">short link</a></p>
+    <p>Regards,<br>Apple Security</p>
+  </body>
+</html>

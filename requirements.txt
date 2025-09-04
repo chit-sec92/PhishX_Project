@@ -1,0 +1,10 @@
+streamlit>=1.35
+tldextract>=5.1
+dnspython>=2.6
+python-whois>=0.9.3
+beautifulsoup4>=4.12
+requests>=2.32
+idna>=3.7
+validators>=0.28
+lxml>=5.3
+pdfkit>=1.0.0

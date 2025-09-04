@@ -1,0 +1,15 @@
+From: support@example.com
+To: user@example.org
+Subject: Your monthly newsletter
+Date: Mon, 1 Sep 2025 09:00:00 +0530
+Message-ID: <1234@example.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Authentication-Results: example.org; spf=pass smtp.mailfrom=example.com; dkim=pass header.d=example.com; dmarc=pass
+
+<html>
+  <body>
+    <p>Hi there,</p>
+    <p>This is your friendly newsletter. Visit <a href="https://www.example.com">our site</a>.</p>
+  </body>
+</html>
